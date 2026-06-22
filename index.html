@@ -1,76 +1,204 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Prachi | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prachi Prajapati | Portfolio</title>
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{
+scroll-behavior:smooth;
+}
+</style>
+
 </head>
 
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-900 text-white">
 
-  <!-- HERO SECTION -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-    <h1 class="text-4xl md:text-5xl font-bold mb-4">
-      Hi, I'm Prachi
-    </h1>
-    <p class="text-xl text-gray-300 mb-6">
-      Computer Science Student
-    </p>
-    <p class="max-w-xl text-gray-400">
-      I am a computer science student learning web development and programming.
-      I enjoy building simple, clean, and user-friendly websites.
-    </p>
-  </section>
+<!-- Navbar -->
 
-  <!-- ABOUT SECTION -->
-  <section class="py-16 px-6 bg-gray-800">
-    <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
-    <p class="max-w-3xl mx-auto text-center text-gray-300">
-      I am a passionate computer science student with interest in frontend development.
-      I am currently learning HTML, CSS, Tailwind CSS, and C++.
-      My goal is to improve my technical skills and build real-world projects.
-    </p>
-  </section>
+<nav class="fixed top-0 w-full bg-gray-950 shadow-lg z-50">
+<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-cyan-400">Prachi</h1>
 
-  <!-- SKILLS SECTION -->
-  <section class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
-    <div class="flex flex-wrap justify-center gap-4">
-      <span class="bg-teal-500 text-black px-4 py-2 rounded">HTML</span>
-      <span class="bg-teal-500 text-black px-4 py-2 rounded">CSS</span>
-      <span class="bg-teal-500 text-black px-4 py-2 rounded">Tailwind CSS</span>
-      <span class="bg-teal-500 text-black px-4 py-2 rounded">C++</span>
-      <span class="bg-teal-500 text-black px-4 py-2 rounded">GitHub</span>
-    </div>
-  </section>
+<ul class="flex gap-6 text-sm md:text-base">
+<li><a href="#about" class="hover:text-cyan-400">About</a></li>
+<li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
+<li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+<li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+</ul>
+</div>
+</nav>
 
-  <!-- PROJECTS SECTION -->
-  <section class="py-16 px-6 bg-gray-800">
-    <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+<!-- Hero -->
 
-    <div class="max-w-xl mx-auto bg-gray-900 p-6 rounded-lg shadow">
-      <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
-      <p class="text-gray-400">
-        A personal portfolio website created using HTML and Tailwind CSS
-        to showcase my skills and basic information.
-      </p>
-    </div>
-  </section>
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
 
-  <!-- CONTACT SECTION -->
-  <section class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6">Contact</h2>
-    <p class="text-gray-300 mb-2">Email: yourname@gmail.com</p>
-    <p class="text-gray-300">GitHub: https://github.com/your-username</p>
-  </section>
+<h1 class="text-5xl md:text-6xl font-bold mb-4">
+Hi, I'm <span class="text-cyan-400">Prachi Prajapati</span>
+</h1>
 
-  <!-- FOOTER -->
-  <footer class="bg-gray-800 text-center py-4 text-gray-400">
-    © 2026 Prachi. All rights reserved.
-  </footer>
+<p class="text-2xl text-gray-300 mb-6">
+Computer Science Engineering Student
+</p>
+
+<p class="max-w-2xl text-gray-400">
+Passionate CSE student focused on Data Structures & Algorithms,
+Web Development, and problem solving. Currently building projects
+using HTML, CSS, JavaScript and React.js.
+</p>
+
+<div class="mt-8 flex gap-4">
+<a href="https://github.com/prajapatiprachi682-web"
+class="bg-cyan-500 px-5 py-2 rounded text-black font-semibold">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/prachi-prajapati-b22b71328/"
+class="border border-cyan-500 px-5 py-2 rounded">
+LinkedIn </a>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="py-20 bg-gray-800 px-6">
+
+<h2 class="text-4xl font-bold text-center mb-8">
+About Me
+</h2>
+
+<p class="max-w-3xl mx-auto text-center text-gray-300">
+I am pursuing B.Tech in Computer Science Engineering from
+Baderia Global Institute of Engineering and Management,
+Jabalpur. I enjoy learning DSA, solving coding problems,
+and creating responsive web applications.
+</p>
+
+</section>
+
+<!-- Skills -->
+
+<section id="skills" class="py-20 px-6">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Skills
+</h2>
+
+<div class="flex flex-wrap justify-center gap-4">
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+C
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+C++
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+HTML
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+CSS
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+JavaScript
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+React.js
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+Git
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+GitHub
+</span>
+
+<span class="bg-cyan-500 text-black px-5 py-2 rounded">
+DSA
+</span>
+
+</div>
+
+</section>
+
+<!-- Projects -->
+
+<section id="projects" class="py-20 bg-gray-800 px-6">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Projects
+</h2>
+
+<div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+<div class="bg-gray-900 p-6 rounded-lg">
+<h3 class="text-2xl font-semibold mb-3">
+Portfolio Website
+</h3>
+
+<p class="text-gray-400">
+Developed a responsive personal portfolio website using
+HTML and Tailwind CSS to showcase skills, projects,
+and contact information.
+</p>
+</div>
+
+<div class="bg-gray-900 p-6 rounded-lg">
+<h3 class="text-2xl font-semibold mb-3">
+Todo Application
+</h3>
+
+<p class="text-gray-400">
+Built a task management application using React.js.
+Implemented task creation, deletion and state management
+features with responsive UI.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="py-20 text-center px-6">
+
+<h2 class="text-4xl font-bold mb-8">
+Contact Me
+</h2>
+
+<p class="mb-3">
+📧 prajapatiprachi682@gmail.com
+</p>
+
+<p class="mb-3">
+📱 7828949499
+</p>
+
+<p class="mb-3">
+📍 Jabalpur, Madhya Pradesh
+</p>
+
+<p>
+🔗 linkedin.com/in/prachi-prajapati-b22b71328
+</p>
+
+</section>
+
+<footer class="bg-gray-950 py-5 text-center text-gray-400">
+© 2026 Prachi Prajapati | All Rights Reserved
+</footer>
 
 </body>
 </html>
